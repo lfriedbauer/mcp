@@ -34,6 +34,9 @@ Each MCP tool has its own dedicated folder with:
 
 ## 🎯 Getting Started Guide
 
+### ⚡ Super Quick Start (30 minutes)
+**Want to get started immediately?** Follow our [Quick Start Checklist](QUICKSTART.md) - it includes an automated setup script and gets you running in 30 minutes!
+
 ### For Complete Beginners
 
 1. **Start Here**: Read the [MCP Basics Guide](docs/getting-started/mcp-basics.md)
@@ -44,6 +47,10 @@ Each MCP tool has its own dedicated folder with:
 ### Quick Start
 
 ```bash
+# Option 1: Use our automated setup script
+curl -sSL https://raw.githubusercontent.com/lfriedbauer/mcp/main/scripts/setup.sh | bash
+
+# Option 2: Manual setup
 # Clone this repository
 git clone <your-repo-url>
 cd mcp
@@ -92,7 +99,8 @@ We've designed a learning path that builds your knowledge gradually:
 ### Want to Add More?
 1. Create a new folder in `tools/`
 2. Follow our [Adding New Tools Guide](docs/guides/adding-tools.md)
-3. Share with the community!
+3. Check our [Configuration Guide](docs/guides/configuration.md)
+4. Share with the community!
 
 ## 📖 Documentation
 
