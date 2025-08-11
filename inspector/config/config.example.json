@@ -1,0 +1,26 @@
+{
+  "inspector": {
+    "name": "mcp-inspector",
+    "version": "1.0.0",
+    "description": "MCP Inspector Tool"
+  },
+  "targets": {
+    "autoDiscover": true,
+    "discoveryPaths": [
+      "../supabase-mcp",
+      "./other-mcp-tools"
+    ],
+    "manualTools": []
+  },
+  "output": {
+    "format": "json",
+    "verbose": true,
+    "includeSchemas": true,
+    "includeExamples": true
+  },
+  "debugging": {
+    "enableLogging": true,
+    "logLevel": "info",
+    "testConnections": true
+  }
+}

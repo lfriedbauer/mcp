@@ -1,0 +1,35 @@
+{
+  "name": "supabase-mcp",
+  "version": "1.0.0",
+  "description": "MCP tool for interacting with Supabase databases",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test-connection": "node src/test-connection.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "supabase",
+    "database",
+    "ai-tool"
+  ],
+  "author": "MCP Tools Collection",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lfriedbauer/mcp",
+    "directory": "supabase-mcp"
+  }
+}
