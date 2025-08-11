@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-filesystem",
+        "~/Documents/mcp-test"
+      ],
+      "env": {
+        "FILESYSTEM_ALLOWED_PATHS": "~/Documents/mcp-test"
+      }
+    }
+  }
+}
