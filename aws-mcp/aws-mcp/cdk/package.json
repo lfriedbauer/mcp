@@ -1,0 +1,39 @@
+{
+  "name": "cdk-mcp-server",
+  "version": "1.0.0",
+  "description": "AWS CDK MCP Server for Infrastructure as Code development", 
+  "main": "index.js",
+  "scripts": {
+    "start": "uvx awslabs.cdk-mcp-server@latest",
+    "install-server": "pip install awslabs.cdk-mcp-server",
+    "test-cdk": "cdk --version"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "aws",
+    "cdk", 
+    "infrastructure-as-code",
+    "iac",
+    "cloud-development-kit"
+  ],
+  "author": "AWS Labs", 
+  "license": "Apache-2.0",
+  "dependencies": {
+    "awslabs.cdk-mcp-server": "latest"
+  },
+  "engines": {
+    "python": ">=3.10.0",
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git", 
+    "url": "https://github.com/lfriedbauer/mcp",
+    "directory": "aws-mcp/cdk"
+  },
+  "mcp": {
+    "serverType": "infrastructure-as-code",
+    "category": "development",
+    "capabilities": ["guidance", "patterns", "security", "modeling"]
+  }
+}
