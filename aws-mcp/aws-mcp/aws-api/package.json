@@ -1,0 +1,38 @@
+{
+  "name": "aws-api-mcp-server",
+  "version": "1.0.0", 
+  "description": "AWS API MCP Server for comprehensive AWS CLI access",
+  "main": "index.js",
+  "scripts": {
+    "start": "uvx awslabs.aws-api-mcp-server@latest",
+    "install-server": "pip install awslabs.aws-api-mcp-server",
+    "test-connection": "aws sts get-caller-identity"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol", 
+    "aws",
+    "api",
+    "cli",
+    "cloud",
+    "infrastructure"
+  ],
+  "author": "AWS Labs",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "awslabs.aws-api-mcp-server": "latest"
+  },
+  "engines": {
+    "python": ">=3.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lfriedbauer/mcp",
+    "directory": "aws-mcp/aws-api"
+  },
+  "mcp": {
+    "serverType": "aws-cli",
+    "category": "infrastructure",
+    "capabilities": ["read", "write", "query", "manage"]
+  }
+}
