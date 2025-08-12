@@ -1,0 +1,38 @@
+{
+  "name": "dynamodb-mcp-server",
+  "version": "1.0.0",
+  "description": "Amazon DynamoDB MCP Server for NoSQL database operations",
+  "main": "index.js", 
+  "scripts": {
+    "start": "uvx awslabs.dynamodb-mcp-server@latest",
+    "install-server": "pip install awslabs.dynamodb-mcp-server",
+    "test-connection": "aws dynamodb list-tables"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "aws",
+    "dynamodb",
+    "nosql", 
+    "database",
+    "data-modeling"
+  ],
+  "author": "AWS Labs",
+  "license": "Apache-2.0", 
+  "dependencies": {
+    "awslabs.dynamodb-mcp-server": "latest"
+  },
+  "engines": {
+    "python": ">=3.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lfriedbauer/mcp", 
+    "directory": "aws-mcp/dynamodb"
+  },
+  "mcp": {
+    "serverType": "database",
+    "category": "data",
+    "capabilities": ["read", "write", "query", "modeling", "backup"]
+  }
+}
