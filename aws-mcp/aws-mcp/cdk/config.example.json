@@ -1,0 +1,20 @@
+{
+  "mcp": {
+    "name": "cdk-mcp-server",
+    "version": "latest", 
+    "description": "AWS CDK MCP Server for Infrastructure as Code"
+  },
+  "cdk": {
+    "enableNagValidation": true,
+    "preferSolutionsConstructs": true,
+    "includeGenAIConstructs": true
+  },
+  "security": {
+    "enforceSecurityBestPractices": true,
+    "requireNagCompliance": true
+  },
+  "development": {
+    "logLevel": "ERROR",
+    "enableLambdaPowertools": true
+  }
+}
