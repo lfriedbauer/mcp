@@ -1,0 +1,20 @@
+{
+  "mcp": {
+    "name": "dynamodb-mcp-server", 
+    "version": "latest",
+    "description": "Amazon DynamoDB MCP Server for NoSQL database operations"
+  },
+  "aws": {
+    "region": "us-west-2",
+    "profile": "default"
+  },
+  "security": {
+    "readOnlyMode": true,
+    "enableDataModeling": true
+  },
+  "operations": {
+    "enableBackups": true,
+    "enableTTL": true,
+    "enableStreams": false
+  }
+}
