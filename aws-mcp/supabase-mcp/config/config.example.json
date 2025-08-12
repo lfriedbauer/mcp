@@ -1,0 +1,19 @@
+{
+  "supabase": {
+    "url": "https://your-project.supabase.co",
+    "anonKey": "your-anon-key-here",
+    "serviceRoleKey": "your-service-role-key-here"
+  },
+  "database": {
+    "host": "db.your-project.supabase.co",
+    "port": 5432,
+    "database": "postgres",
+    "username": "postgres",
+    "password": "your-password-here"
+  },
+  "mcp": {
+    "name": "supabase-mcp",
+    "version": "1.0.0",
+    "description": "Supabase MCP Tool"
+  }
+}
