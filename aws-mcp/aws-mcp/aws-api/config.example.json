@@ -1,0 +1,19 @@
+{
+  "mcp": {
+    "name": "aws-api-mcp-server",
+    "version": "latest",
+    "description": "AWS API MCP Server for comprehensive AWS CLI access"
+  },
+  "aws": {
+    "region": "us-east-1",
+    "profile": "default"
+  },
+  "security": {
+    "readOnlyMode": false,
+    "requireMutationConsent": false
+  },
+  "configuration": {
+    "workingDirectory": "./aws-api-workdir",
+    "telemetryEnabled": true
+  }
+}
